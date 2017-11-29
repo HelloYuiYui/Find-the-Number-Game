@@ -14,7 +14,6 @@ def findTheNumber():
     num1 = int(input("number 1: "))
     num2 = int(input("number 2: "))
     game = random.randint(num1, num2)
-    #print (oyun)
     print ("choose a number between" + str(num1) + " and " + str(num2))
     count = 0
     while True:
