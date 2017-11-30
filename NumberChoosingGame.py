@@ -19,9 +19,9 @@ def findTheNumber():
     while True:
         count += 1
         answer = int(input("num: "))
-        if answer < oyun:
+        if answer < game:
             print ("up")
-        elif answer > oyun:
+        elif answer > game:
             print ("down")
         else:
             print ("we have found it!")
